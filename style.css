@@ -25,3 +25,15 @@ h1, button {
 button {
   padding: 10px;
 }
+
+.invisible {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 10s, opacity 0.5s;
+}
