@@ -11,3 +11,5 @@ function changerBackground() {
 
   localStorage.setItem('couleur', couleur);
 }
+
+// Ceci est un test
