@@ -22,16 +22,20 @@ h1, button {
   margin: 10px 0 20px;
 }
 
+/* A utiliser dans tous les boutons  */
 button {
   padding: 10px;
 }
 
+
+/* Classe à ajouter pour cacher un élément */
 .invisible {
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s, opacity 0.5s;
 }
 
+/* Classe à ajouter pour afficher un élément */
 .visible {
   visibility: visible;
   opacity: 1;
