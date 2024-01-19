@@ -41,3 +41,19 @@ button {
   opacity: 1;
   transition: visibility 10s, opacity 0.5s;
 }
+
+@media only screen and (max-width: 509px) {
+  .encart {
+    top: 50px;
+    right: 20px;
+    left: 20px;
+  }
+}
+
+@media only screen and (min-width: 510px) and (max-width: 1470px) {
+  .encart {
+    top: 100px;
+    right: 10%;
+    left: 10%;
+  }
+}

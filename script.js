@@ -1,7 +1,14 @@
 window.onload = function(){
-  document.getElementById('couleur').value = localStorage.getItem('couleur');
-  changerBackground();
+  if (localStorage.getItem('couleur')) {
+    document.getElementById('couleur').value = localStorage.getItem('couleur');
+    changerBackground();
+  }
 }
+
+// Autre méthode possible, alternative au onclick dans le HTML
+// let bouton = document.getElementById('bouton');
+// bouton.addEventListener('clic', changerCouleur);
+
 
 function changerBackground() {
   let couleur = document.getElementById('couleur').value;
@@ -24,7 +31,7 @@ function afficherMessage() {
       encartMessage.classList.replace('visible', 'invisible');
     }, 3000);
   }else {
-      encartMessage.classList.replace('visible', 'invisible');
+    encartMessage.classList.replace('visible', 'invisible');
   }
 
 }
@@ -32,4 +39,9 @@ function afficherMessage() {
 function  ChangerCouleurEtAfficherMessage() {
   changerBackground();
   afficherMessage();
+}
+
+function test() {
+  alert('Bonjour');
+  document.getElementById('encartMessage').value = "test";
 }

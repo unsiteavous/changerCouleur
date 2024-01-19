@@ -5,9 +5,9 @@ Avec un `<input type="color">`, vous allez modifier la couleur de fond de votre 
 
 ## 1) construire le HTML
 le minimum est le mieux. Mettre juste les classes et Ids nécessaires. un titre, un input, un bouton.
-## 1) Ajouter le CSS
+## 2) Ajouter le CSS
 Travailler uniquement sur le rendu avant la couleur de fond. Cela se fera avec JS, ne vous en occupez pas.
-## 1) Implémenter le JS
+## 3) Implémenter le JS
 Créer une fonction qui sera appelée à chaque clic sur le bouton.
 Dans cette fonction, vous définirez deux variables, une pour le fond, l'autre pour la couleur choisie.
 Puis vous appliquerez le style au fond.
@@ -16,3 +16,4 @@ Puis vous appliquerez le style au fond.
 * Enregistrer dans le localStorage la couleur, pour qu'elle soit chargée dès le rafraichissement de la page.
 * Afficher un joli message lorsqu'une couleur est sélectionnée (n'importe quelle couleur). Ajouter un élément HTML dans lequel on va écrire.
 * Personnaliser le message si la couleur choisie est votre couleur préférée.
+* Faire disparaître le message au bout de 3 secondes.
